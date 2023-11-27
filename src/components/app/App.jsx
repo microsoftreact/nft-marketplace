@@ -3,6 +3,8 @@ import "./App.css";
 import Header from "../header/Header";
 import Collection from "../collections/Collection";
 import User from "../user/User";
+import Magic from "../magic/Magic";
+import Footer from "../footer/Footer";
 
 const App = () => {
   return (
@@ -10,6 +12,8 @@ const App = () => {
       <Header />
       <Collection />
       <User />
+      <Magic />
+      <Footer />
     </div>
   );
 };
