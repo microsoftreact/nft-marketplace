@@ -34,9 +34,7 @@ const Magic = () => {
         </div>
         <div className="bg-gradient-to-b from-[#59437D] to-[#73499A] w-[295px] h-[144px] rounded-[20px] p-[30px]">
           <span className="text-[#ffffff] text-[12px]">Auction ends in:</span>
-          <h3 className="text-[38px] tracking-[12px] text-white">
-            {CurrentTime}
-          </h3>
+          <h3 className="text-[38px] text-center text-white">{CurrentTime}</h3>
         </div>
       </div>
       <div className="px-40 pt-20 pb-10">
