@@ -19,27 +19,27 @@ const Collection = () => {
   const [mushroom, setMushroom] = useState(CardMushroomImage);
   const [robot, setRobot] = useState(CardRobotImage);
   return (
-    <div className="collection px-40 mt-40 max-w-screen-2xl mx-auto">
+    <div className="lg:px-40 md:px-10 mt-40 max-w-screen-2xl mx-auto">
       <div>
-        <h3 className="text-white font-semibold font-['Work Sans'] text-[38px] leading-[46px] py-2">
+        <h3 className="text-white font-semibold font-['Work Sans'] lg:text-[38px] md:text-[30px] leading-[46px] py-2">
           Trending Collection
         </h3>
-        <p className="font-['Work Sans'] text-[22px] text-white leading-[35px]">
+        <p className="font-['Work Sans'] lg:text-[22px] md:text-[18px] text-white lg:leading-[35px]">
           Checkout our weekly updated trending collection.
         </p>
       </div>
-      <div className="cards flex justify-between mt-20">
-        <div className="card-one">
-          <div className="card-image">
+      <div className="flex lg:justify-between md:justify-around md:gap-20 mt-20 md:flex-wrap">
+        <div className="">
+          <div className="md:h-[250px] md:w-[250px] lg:w-[330px] lg:h-[330px]">
             <img
-              className="w-full cursor-pointer"
+              className="md:h-[250px] lg:w-[330px] lg:h-[330px] rounded-xl md:w-[250px] cursor-pointer"
               src={replaceImg}
               alt="Bu yerda kuchukning rasmi bor"
             />
           </div>
-          <div className="card-collections flex mt-6 gap-4">
+          <div className="flex mt-6 gap-6">
             <img
-              className="h-24 w-24 cursor-pointer"
+              className="lg:h-24 lg:w-24 md:w-16 md:h-16 cursor-pointer"
               onClick={() => {
                 setReplaceImg(CardCatImage);
               }}
@@ -47,7 +47,7 @@ const Collection = () => {
               alt="Bu yerda mushukning rasmi bor"
             />
             <img
-              className="h-24 w-24 cursor-pointer"
+              className="lg:h-24 lg:w-24 md:w-16 md:h-16 cursor-pointer"
               onClick={() => {
                 setReplaceImg(CardBearImage);
               }}
@@ -58,7 +58,7 @@ const Collection = () => {
               onEnter={() => setCounterOn(true)}
               onExit={() => setCounterOn(false)}
             >
-              <div className="flex items-center justify-center rounded-2xl text-xl font-[monospace] font-semibold w-24 h-24 bg-[#A259FF]">
+              <div className="flex items-center justify-center rounded-2xl lg:text-xl md:text-[16px] font-[monospace] font-semibold lg:w-24 lg:h-24 md:w-16 md:h-16 bg-[#A259FF]">
                 {counterOn && (
                   <CountUp start={0} end={1025} duration={5} delay={0} />
                 )}
@@ -66,11 +66,11 @@ const Collection = () => {
               </div>
             </ScrollTrigger>
           </div>
-          <div className="card-information leading-loose mt-6">
+          <div className="leading-loose mt-6">
             <h5 className="text-white text-[22px] font-semibold font-['Work Sans']">
               DSGN Animals
             </h5>
-            <div className="card-information-user flex items-center gap-4">
+            <div className="flex items-center gap-4">
               <img
                 className="w-8"
                 src={MrFox}
@@ -80,17 +80,17 @@ const Collection = () => {
             </div>
           </div>
         </div>
-        <div className="card-two">
-          <div className="card-image">
+        <div className="">
+          <div className="md:h-[250px] md:w-[250px] lg:w-[330px] lg:h-[330px]">
             <img
-              className="w-full cursor-pointer"
+              className="md:h-[250px] lg:w-[330px] lg:h-[330px] rounded-xl md:w-[250px] cursor-pointer"
               src={mushroom}
               alt="Bu yerda qo'ziqorinning rasmi bor"
             />
           </div>
-          <div className="card-collections flex mt-6 gap-4">
+          <div className="flex mt-6 gap-6">
             <img
-              className="w-24 h-24 cursor-pointer"
+              className="lg:w-24 lg:h-24 md:w-16 md:h-16 cursor-pointer"
               src={CardMagicImage}
               alt="Bu yerda qo'ziqorinning rasmi bor"
               onClick={() => {
@@ -98,7 +98,7 @@ const Collection = () => {
               }}
             />
             <img
-              className="w-24 h-24 cursor-pointer"
+              className="lg:w-24 lg:h-24 md:w-16 md:h-16 cursor-pointer"
               src={CardMushroomImage}
               alt="Bu yerda qo'ziqorinning rasmi bor"
               onClick={() => {
@@ -109,7 +109,7 @@ const Collection = () => {
               onEnter={() => setCounterOn(true)}
               onExit={() => setCounterOn(false)}
             >
-              <div className="flex items-center justify-center rounded-2xl text-xl font-[monospace] font-semibold w-24 h-24 bg-[#A259FF]">
+              <div className="flex items-center justify-center rounded-2xl lg:text-xl md:text-[16px] font-[monospace] font-semibold lg:w-24 lg:h-24 md:w-16 md:h-16 bg-[#A259FF]">
                 {counterOn && (
                   <CountUp start={0} end={1025} duration={5} delay={0} />
                 )}
@@ -117,11 +117,11 @@ const Collection = () => {
               </div>
             </ScrollTrigger>
           </div>
-          <div className="card-information leading-loose mt-6">
+          <div className="leading-loose mt-6">
             <h5 className="text-white text-[22px] font-semibold font-['Work Sans']">
               Magic Mushrooms
             </h5>
-            <div className="card-information-user flex items-center gap-4">
+            <div className="flex items-center gap-4">
               <img
                 className="w-8"
                 src={Shroomie}
@@ -131,17 +131,17 @@ const Collection = () => {
             </div>
           </div>
         </div>
-        <div className="card-three">
-          <div className="card-image">
+        <div className="">
+          <div className="md:h-[250px] md:w-[250px] lg:w-[330px] lg:h-[330px]">
             <img
-              className="cursor-pointer"
+              className="md:h-[250px] lg:w-[330px] lg:h-[330px] rounded-xl md:w-[250px] cursor-pointer"
               src={robot}
               alt="Bu yerda robotnning rasmi bor"
             />
           </div>
-          <div className="card-collections flex mt-6 gap-4">
+          <div className="card-collections flex mt-6 gap-6">
             <img
-              className="w-24 h-24 cursor-pointer"
+              className="lg:w-24 lg:h-24 md:w-16 md:h-16 cursor-pointer"
               onClick={() => {
                 setRobot(CardDiscoImage);
               }}
@@ -152,7 +152,7 @@ const Collection = () => {
               onClick={() => {
                 setRobot(CardDiscoRobotImage);
               }}
-              className="w-24 h-24 cursor-pointer"
+              className="lg:w-24 lg:h-24 md:w-16 md:h-16 cursor-pointer"
               src={CardDiscoRobotImage}
               alt="Bu yerda robotnning rasmi bor"
             />
@@ -160,7 +160,7 @@ const Collection = () => {
               onEnter={() => setCounterOn(true)}
               onExit={() => setCounterOn(false)}
             >
-              <div className="flex items-center justify-center rounded-2xl text-xl font-[monospace] font-semibold w-24 h-24 bg-[#A259FF]">
+              <div className="flex items-center justify-center rounded-2xl lg:text-xl md:text-[16px] font-[monospace] font-semibold lg:w-24 lg:h-24 md:w-16 md:h-16 bg-[#A259FF]">
                 {counterOn && (
                   <CountUp start={0} end={1025} duration={5} delay={0} />
                 )}
@@ -168,11 +168,11 @@ const Collection = () => {
               </div>
             </ScrollTrigger>
           </div>
-          <div className="card-information leading-loose mt-6">
+          <div className="leading-loose mt-6">
             <h5 className="text-white text-[22px] font-semibold font-['Work Sans']">
               Disco Machines
             </h5>
-            <div className="card-information-user flex items-center gap-4">
+            <div className="flex items-center gap-4">
               <img
                 className="w-8"
                 src={BeKind2Robots}

@@ -8,7 +8,7 @@ import Footer from "../footer/Footer";
 
 const App = () => {
   return (
-    <div className="app min-h-screen bg-[#2B2B2B]">
+    <div className="w-full app min-h-screen bg-[#2B2B2B]">
       <Header />
       <Collection />
       <User />

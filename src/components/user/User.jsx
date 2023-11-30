@@ -35,179 +35,239 @@ import SpaceOne from "/discover/SpaceOne.png";
 
 const User = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto">
-      <div className="flex justify-between px-40 mt-24">
+    <div className="lg:max-w-screen-2xl mx-auto md:w-full md:mt-20">
+      <div className="flex lg:justify-between md:items-center md:gap-10 md:px-10 lg:px-40 lg:mt-24">
         <div className="leading-normal">
-          <h3 className="font-semibold text-[38px] text-[#ffffff]">
+          <h3 className="font-semibold lg:text-[38px] md:text-[32px] text-[#ffffff]">
             Top creators
           </h3>
-          <span className="text-white text-[22px] font-['Work Sans']">
+          <span className="text-white lg:text-[22px] md:text-[16px] font-['Work Sans']">
             Checkout Top Rated Creators on the NFT Marketplace
           </span>
         </div>
-        <div className="font-semibold text-[16px] flex items-center justify-center gap-4 w-72 cursor-pointer h-14 border-purple-600 border-2 text-white rounded-2xl hover:bg-[#A259FF] transition-all duration-700 hover:border-none">
+        <div className="font-semibold text-[16px] flex items-center justify-center gap-4 lg:w-72 cursor-pointer lg:h-14 md:w-64 md:h-14 border-purple-600 border-2 text-white rounded-2xl hover:bg-[#A259FF] transition-all duration-700 hover:border-none">
           <i className="fas fa-rocket"></i>
           View Rankings
         </div>
       </div>
-      <div className="px-40 pt-40">
-        <div className="flex gap-20">
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+      <div className="lg:px-40 pt-40 md:px-16">
+        <div className="flex lg:flex-nowrap md:flex-wrap lg:gap-20 md:gap-10">
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 lg:top-6 md:top-3 md:left-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
               1
             </span>
-            <img className="w-[120px] h-[120px]" src={Keepitreal} />
-            <h5 className="text-white font-semibold text-[22px] pt-4">
-              Keepitreal
-            </h5>
-            <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={Keepitreal}
+            />
+            <div className="md:flex md:flex-col md:gap-2">
+              <h5 className="text-white lg:text-center font-semibold lg:text-[22px] lg:pt-4 md:pt-1 md:text-[16px]">
+                Keepitreal
+              </h5>
+              <div className="flex gap-2 text-white">
+                <p className="text-[#858584] md:text-[14px] ">Total Sales:</p>
+                <span className=" md:text-[14px] ">34.53 ETH</span>
+              </div>
             </div>
           </div>
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 lg:top-6 md:top-3 md:left-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
               2
             </span>
-            <img className="w-[120px] h-[120px]" src={Digilab} />
-            <h5 className="text-white font-semibold text-[22px] pt-4">
-              DigiLab
-            </h5>
-            <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={Digilab}
+            />
+            <div className="md:flex md:flex-col md:gap-2">
+              <h5 className="text-white lg:text-center font-semibold lg:text-[22px] lg:pt-4 md:pt-1 md:text-[16px]">
+                DigiLab
+              </h5>
+              <div className="flex gap-2 text-white md:text-[14px]">
+                <p className="text-[#858584] md:text-[14px]">Total Sales:</p>
+                <span className="">34.53 ETH</span>
+              </div>
             </div>
           </div>
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 md:top-3 lg:top-6 md:left-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
               3
             </span>
-            <img className="w-[120px] h-[120px]" src={Gravityone} />
-            <h5 className="text-white font-semibold text-[22px] pt-4">
-              GravityOne
-            </h5>
-            <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={Gravityone}
+            />
+            <div className="md:flex md:flex-col md:gap-2">
+              <h5 className="text-white lg:text-center font-semibold lg:text-[22px] lg:pt-4 md:pt-1 md:text-[16px]">
+                GravityOne
+              </h5>
+              <div className="flex gap-2 text-white">
+                <p className="text-[#858584] md:text-[14px]">Total Sales:</p>
+                <span className=" md:text-[14px]">34.53 ETH</span>
+              </div>
             </div>
           </div>
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 lg:top-6 md:top-3 md:left-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
               4
             </span>
-            <img className="w-[120px] h-[120px]" src={Juanie} />
-            <h5 className="text-white font-semibold text-[22px] pt-4">
-              Juanie
-            </h5>
-            <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={Juanie}
+            />
+            <div className="md:flex md:flex-col md:gap-2">
+              <h5 className="text-white lg:text-center font-semibold lg:text-[22px] lg:pt-4 md:pt-1 md:text-[16px]">
+                Juanie
+              </h5>
+              <div className="flex gap-2 text-white">
+                <p className="text-[#858584] md:text-[14px]">Total Sales:</p>
+                <span className=" md:text-[14px]">34.53 ETH</span>
+              </div>
             </div>
           </div>
         </div>
-        <div className="flex gap-20 py-20">
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+        <div className="flex lg:flex-nowrap md:flex-wrap lg:gap-20 lg:py-20 md:py-10 md:gap-10">
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 lg:top-6 md:top-3 md:left-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
               5
             </span>
-            <img className="w-[120px] h-[120px]" src={Bluewhale} />
-            <h5 className="text-white font-semibold text-[22px] pt-4">
-              BlueWhale
-            </h5>
-            <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={Bluewhale}
+            />
+            <div className="md:flex md:flex-col md:gap-2">
+              <h5 className="text-white lg:text-center font-semibold lg:text-[22px] lg:pt-4 md:pt-1 md:text-[16px]">
+                BlueWhale
+              </h5>
+              <div className="flex gap-2 text-white">
+                <p className="text-[#858584] md:text-[14px]">Total Sales:</p>
+                <span className="md:text-[14px]">34.53 ETH</span>
+              </div>
             </div>
           </div>
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 lg:top-6 md:top-3 md:left-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
               6
             </span>
-            <img className="w-[120px] h-[120px]" src={Mrfox} />
-            <h5 className="text-white capitalize font-semibold text-[22px] pt-4">
-              mr fox
-            </h5>
-            <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={Mrfox}
+            />
+            <div className="md:flex md:flex-col md:gap-2">
+              <h5 className="text-white lg:text-center font-semibold lg:text-[22px] lg:pt-4 md:pt-1 md:text-[16px]">
+                mr fox
+              </h5>
+              <div className="flex gap-2 text-white">
+                <p className="text-[#858584]md:text-[14px]">Total Sales:</p>
+                <span className="md:text-[14px]">34.53 ETH</span>
+              </div>
             </div>
           </div>
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 lg:top-6 md:top-3 md:left-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
               7
             </span>
-            <img className="w-[120px] h-[120px]" src={Shroomie} />
-            <h5 className="text-white font-semibold text-[22px] pt-4">
-              Shroomie
-            </h5>
-            <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={Shroomie}
+            />
+            <div className="md:flex md:flex-col md:gap-2">
+              <h5 className="text-white font-semibold lg:text-[22px] pt-4 md:text-[12px]">
+                Shroomie
+              </h5>
+              <div className="flex gap-2 text-white">
+                <p className="text-[#858584]md:text-[14px]">Total Sales:</p>
+                <span className="md:text-[14px]">34.53 ETH</span>
+              </div>
             </div>
           </div>
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 lg:top-6 md:top-3 md:left-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
               8
             </span>
-            <img className="w-[120px] h-[120px]" src={Robotica} />
-            <h5 className="text-white capitalize font-semibold text-[22px] pt-4">
-              robotica
-            </h5>
-            <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={Robotica}
+            />
+            <div className="md:flex md:flex-col md:gap-2">
+              <h5 className="text-white lg:text-center font-semibold lg:text-[22px] lg:pt-4 md:pt-1 md:text-[16px]">
+                robotica
+              </h5>
+              <div className="flex gap-2 text-white">
+                <p className="text-[#858584] md:text-[14px]">Total Sales:</p>
+                <span className="md:text-[14px]">34.53 ETH</span>
+              </div>
             </div>
           </div>
         </div>
-        <div className="flex gap-20 pb-48">
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+        <div className="flex lg:flex-nowrap md:flex-wrap lg:gap-20 pb-20 md:gap-10">
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 lg:top-6 md:left-3 md:top-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
               9
             </span>
-            <img className="w-[120px] h-[120px]" src={RustyRobot} />
-            <h5 className="text-white font-semibold text-[22px] pt-4">
-              RustyRobot
-            </h5>
-            <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={RustyRobot}
+            />
+            <div className="md:flex md:flex-col md:gap-2">
+              <h5 className="text-white lg:text-center font-semibold lg:text-[22px] lg:pt-4 md:pt-1 md:text-[16px]">
+                RustyRobot
+              </h5>
+              <div className="flex gap-2 text-white">
+                <p className="text-[#858584] md:text-[14px]">Total Sales:</p>
+                <span className="md:text-[14px]">34.53 ETH</span>
+              </div>
             </div>
           </div>
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 lg:top-6 md:top-3 md:left-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
               10
             </span>
-            <img className="w-[120px] h-[120px]" src={Animakid} />
-            <h5 className="text-white capitalize font-semibold text-[22px] pt-4">
-              animakid
-            </h5>
-            <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={Animakid}
+            />
+            <div className="md:flex md:flex-col md:gap-2">
+              <h5 className="text-white lg:text-center font-semibold lg:text-[22px] lg:pt-4 md:pt-1 md:text-[16px]">
+                animakid
+              </h5>
+              <div className="flex gap-2 text-white">
+                <p className="text-[#858584] md:text-[14px]">Total Sales:</p>
+                <span className="md:text-[14px]">34.53 ETH</span>
+              </div>
             </div>
           </div>
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 lg:top-6 md:left-3 md:top-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
               11
             </span>
-            <img className="w-[120px] h-[120px]" src={Dotgu} />
-            <h5 className="text-white font-semibold text-[22px] pt-4">Dotgu</h5>
-            <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
-            </div>
-          </div>
-          <div className="relative bg-[#3B3B3B] w-[240px] h-[238px] flex flex-col items-center justify-center rounded-3xl p-[20px]">
-            <span className="absolute left-6 top-6 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
-              12
-            </span>
-            <img className="w-[120px] h-[120px]" src={Ghiblier} />
-            <h5 className="text-white capitalize font-semibold text-[22px] pt-4">
-              Ghiblier
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={Dotgu}
+            />
+            <h5 className="text-white lg:text-center font-semibold lg:text-[22px] lg:pt-4 md:pt-1 md:text-[16px]">
+              Dotgu
             </h5>
             <div className="flex gap-2 text-white">
-              <p className="text-[#858584]">Total Sales:</p>
-              <span className="">34.53 ETH</span>
+              <p className="text-[#858584] md:text-[14px]">Total Sales:</p>
+              <span className="md:text-[14px]">34.53 ETH</span>
+            </div>
+          </div>
+          <div className="relative bg-[#3B3B3B] lg:w-[240px] lg:h-[238px]  md:w-[300px] md:h-[100px] flex lg:flex-col lg:items-center lg:justify-center rounded-3xl p-[20px] md:flex-row md:gap-5 lg:gap-0">
+            <span className="absolute lg:left-6 lg:top-6 md:left-3 md:top-3 w-[30px] h-[30px] rounded-[50%] bg-[#2B2B2B] flex items-center justify-center text-[#858584]">
+              12
+            </span>
+            <img
+              className="lg:w-[120px] lg:h-[120px] md:w-[70px] md:h-[70px]"
+              src={Ghiblier}
+            />
+            <div className="md:flex md:flex-col md:gap-2">
+              <h5 className="text-white lg:text-center font-semibold lg:text-[22px] lg:pt-4 md:pt-1 md:text-[16px]">
+                Ghiblier
+              </h5>
+              <div className="flex gap-2 text-white">
+                <p className="text-[#858584] md:text-[14px]">Total Sales:</p>
+                <span className="md:text-[14px]">34.53 ETH</span>
+              </div>
             </div>
           </div>
         </div>
@@ -228,7 +288,7 @@ const User = () => {
               src={PaintBrush}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
               Art
             </h5>
           </div>
@@ -243,7 +303,7 @@ const User = () => {
               src={Swatches}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
               Collectibles
             </h5>
           </div>
@@ -258,7 +318,7 @@ const User = () => {
               src={MusicNotes}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
               Music
             </h5>
           </div>
@@ -273,7 +333,7 @@ const User = () => {
               src={Camera}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
               Photography
             </h5>
           </div>
@@ -290,7 +350,7 @@ const User = () => {
               src={VideoCamera}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
               Video
             </h5>
           </div>
@@ -305,7 +365,7 @@ const User = () => {
               src={MagicWand}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
               Utility
             </h5>
           </div>
@@ -320,7 +380,7 @@ const User = () => {
               src={Basketball}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
               Sport
             </h5>
           </div>
@@ -335,7 +395,7 @@ const User = () => {
               src={Planet}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
               Virtual Worlds
             </h5>
           </div>
