@@ -2,8 +2,8 @@ import NftLogo from "/assets/Storefront.png";
 
 const Footer = () => {
   return (
-    <div className="w-full h-[400px] bg-[#3B3B3B]">
-      <div className="max-w-screen-2xl mx-auto px-40 flex justify-between mt-14 pt-[1px]">
+    <div className="lg:w-full lg:h-[400px] bg-[#3B3B3B]">
+      <div className="lg:max-w-screen-2xl mx-auto px-40 flex lg:flex-row md:flex-col lg:justify-between mt-14 pt-[1px]">
         <div className="mt-20 w-[328px]">
           <div className="text-white font-semibold flex items-center gap-4 text-[22px]">
             <img src={NftLogo} alt="" />
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="border w-[1200px] mx-auto my-10 bg-[#858584]" />
+      <hr className="border lg:w-[1200px] md:w-[650px] mx-auto lg:my-10 md:my-16 bg-[#858584]" />
       <div className="w-[1200px] mx-auto text-[#858584] font-semibold text-[18px]">
         Ⓒ Create website design by Nodirbek Toshpulatov
       </div>

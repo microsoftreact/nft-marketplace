@@ -4,7 +4,7 @@ import HeaderContentImg from "/assets/Highlighted NFT.png";
 import CounterUpPage from "../counter/CounterUpPage";
 
 const Header = () => {
-  const [openModal, setOpenModal] = useState(true);
+  const [openModal, setOpenModal] = useState(false);
 
   function handleClick() {
     setOpenModal(!openModal);
@@ -43,7 +43,7 @@ const Header = () => {
           </div>
           <div
             className={`modal ${
-              openModal ? "" : "md:hidden"
+              openModal ? "md:hidden " : "lg:hidden"
             } md:cursor-pointer`}
           >
             <i
@@ -53,7 +53,7 @@ const Header = () => {
           </div>
           <div
             className={`lg:hidden modal ${
-              openModal ? "md:hidden" : ""
+              openModal ? "" : "md:hidden"
             } md:flex md:w-[300px] md:h-[250px] md:bg-slate-600 md:relative md:rounded-xl md:flex-col md:items-center md:justify-center`}
           >
             <i

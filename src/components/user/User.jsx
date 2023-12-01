@@ -272,140 +272,140 @@ const User = () => {
           </div>
         </div>
         <div>
-          <h3 className="font-semibold text-[38px] pb-12 text-[#ffffff]">
+          <h3 className="font-semibold lg:text-[38px] md:text-[24px] pb-12 text-[#ffffff]">
             Browse Categories
           </h3>
         </div>
-        <div className="flex gap-20 pb-20">
-          <div className="bg-[#3B3B3B] w-[240px] h-[316px] rounded-[20px] relative flex flex-col items-center justify-center">
+        <div className="flex lg:gap-20 md:gap-8 pb-20">
+          <div className="bg-[#3B3B3B] lg:w-[240px] lg:h-[316px] md:w-[150px] md:h-[200px] rounded-[20px] relative flex flex-col items-center justify-center">
             <img
               className="absolute top-0 blur-sm cursor-pointer"
               src={Art}
               alt=""
             />
             <img
-              className="absolute top-16 cursor-pointer active:scale-50 duration-1000"
+              className="absolute md:w-16 lg:w-auto top-16 cursor-pointer active:scale-50 duration-1000"
               src={PaintBrush}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white lg:bottom-7 lg:left-6 md:bottom-4 lg:text-[22px] md:text-[18px] font-semibold">
               Art
             </h5>
           </div>
-          <div className="bg-[#3B3B3B] w-[240px] h-[316px] rounded-[20px] relative flex flex-col items-center justify-center">
+          <div className="bg-[#3B3B3B] lg:w-[240px] lg:h-[316px] md:w-[150px] md:h-[200px] rounded-[20px] relative flex flex-col items-center justify-center">
             <img
               className="absolute top-0 blur-sm cursor-pointer"
               src={Collectibles}
               alt=""
             />
             <img
-              className="absolute top-16 cursor-pointer active:scale-50 duration-1000"
+              className="absolute md:w-16 lg:w-auto top-16 cursor-pointer active:scale-50 duration-1000"
               src={Swatches}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white lg:bottom-7 lg:left-6 md:bottom-4 lg:text-[22px] md:text-[18px] font-semibold">
               Collectibles
             </h5>
           </div>
-          <div className="bg-[#3B3B3B] w-[240px] h-[316px] rounded-[20px] relative flex flex-col items-center justify-center">
+          <div className="bg-[#3B3B3B] lg:w-[240px] lg:h-[316px] md:w-[150px] md:h-[200px] rounded-[20px] relative flex flex-col items-center justify-center">
             <img
               className="absolute top-0 blur-sm cursor-pointer"
               src={Music}
               alt=""
             />
             <img
-              className="absolute top-16 cursor-pointer active:scale-50 duration-1000"
+              className="absolute md:w-16 lg:w-auto top-16 cursor-pointer active:scale-50 duration-1000"
               src={MusicNotes}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white lg:bottom-7 lg:left-6 md:bottom-4 lg:text-[22px] md:text-[18px] font-semibold md:text-center">
               Music
             </h5>
           </div>
-          <div className="bg-[#3B3B3B] w-[240px] h-[316px] rounded-[20px] relative flex flex-col items-center justify-center">
+          <div className="bg-[#3B3B3B] lg:w-[240px] lg:h-[316px] md:w-[150px] md:h-[200px] rounded-[20px] relative flex flex-col items-center justify-center">
             <img
               className="absolute top-0 blur-sm cursor-pointer"
               src={Photography}
               alt=""
             />
             <img
-              className="absolute top-16 cursor-pointer active:scale-50 duration-1000"
+              className="absolute md:w-16 lg:w-auto top-16 cursor-pointer active:scale-50 duration-1000"
               src={Camera}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white lg:bottom-7 lg:left-6 md:bottom-4 lg:text-[22px] md:text-[18px] font-semibold">
               Photography
             </h5>
           </div>
         </div>
-        <div className="flex gap-20">
-          <div className="bg-[#3B3B3B] w-[240px] h-[316px] rounded-[20px] relative flex flex-col items-center justify-center">
+        <div className="flex lg:gap-20 md:gap-10">
+          <div className="bg-[#3B3B3B] lg:w-[240px] lg:h-[316px] md:w-[150px] md:h-[200px] rounded-[20px] relative flex flex-col items-center justify-center">
             <img
               className="absolute top-0 blur-sm cursor-pointer"
               src={Video}
               alt=""
             />
             <img
-              className="absolute top-16 cursor-pointer active:scale-50 duration-1000"
+              className="absolute md:w-16 lg:w-auto top-16 cursor-pointer active:scale-50 duration-1000"
               src={VideoCamera}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white lg:bottom-7 lg:left-6 md:bottom-4 lg:text-[22px] md:text-[18px] font-semibold">
               Video
             </h5>
           </div>
-          <div className="bg-[#3B3B3B] w-[240px] h-[316px] rounded-[20px] relative flex flex-col items-center justify-center">
+          <div className="bg-[#3B3B3B] lg:w-[240px] lg:h-[316px] md:w-[150px] md:h-[200px] rounded-[20px] relative flex flex-col items-center justify-center">
             <img
               className="absolute top-0 blur-sm cursor-pointer"
               src={Utility}
               alt=""
             />
             <img
-              className="absolute top-16 cursor-pointer active:scale-50 duration-1000"
+              className="absolute md:w-16 lg:w-auto top-16 cursor-pointer active:scale-50 duration-1000"
               src={MagicWand}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white lg:bottom-7 lg:left-6 md:bottom-4 lg:text-[22px] md:text-[18px] font-semibold">
               Utility
             </h5>
           </div>
-          <div className="bg-[#3B3B3B] w-[240px] h-[316px] rounded-[20px] relative flex flex-col items-center justify-center">
+          <div className="bg-[#3B3B3B] lg:w-[240px] lg:h-[316px] md:w-[150px] md:h-[200px] rounded-[20px] relative flex flex-col items-center justify-center">
             <img
               className="absolute top-0 blur-sm cursor-pointer"
               src={Sport}
               alt=""
             />
             <img
-              className="absolute top-16 cursor-pointer active:scale-50 duration-1000"
+              className="absolute md:w-16 lg:w-auto top-16 cursor-pointer active:scale-50 duration-1000"
               src={Basketball}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white lg:bottom-7 lg:left-6 md:bottom-4 lg:text-[22px] md:text-[18px] font-semibold">
               Sport
             </h5>
           </div>
-          <div className="bg-[#3B3B3B] w-[240px] h-[316px] rounded-[20px] relative flex flex-col items-center justify-center">
+          <div className="bg-[#3B3B3B] lg:w-[240px] lg:h-[316px] md:w-[150px] md:h-[200px] rounded-[20px] relative flex flex-col items-center justify-center">
             <img
               className="absolute top-0 blur-sm cursor-pointer"
               src={VirtualWorlds}
               alt=""
             />
             <img
-              className="absolute top-16 cursor-pointer active:scale-50 duration-1000"
+              className="absolute md:w-16 lg:w-auto top-16 cursor-pointer active:scale-50 duration-1000"
               src={Planet}
               alt=""
             />
-            <h5 className="absolute z-1 text-white bottom-7 left-6 lg:text-[22px] font-semibold">
+            <h5 className="absolute z-1 text-white lg:bottom-7 lg:left-6 md:bottom-4 lg:text-[22px] md:text-[17px] font-semibold">
               Virtual Worlds
             </h5>
           </div>
         </div>
         <div className="flex justify-between mt-48">
           <div className="leading-normal">
-            <h3 className="font-semibold text-[38px] text-[#ffffff]">
+            <h3 className="font-semibold lg:text-[38px] md:text-[24px] text-[#ffffff]">
               Discover More NFTs
             </h3>
-            <span className="text-white text-[22px] font-['Work Sans']">
+            <span className="text-white lg:text-[22px] md:text-[16px] font-['Work Sans']">
               Explore new trending NFTs
             </span>
           </div>
@@ -414,8 +414,8 @@ const User = () => {
             See All
           </div>
         </div>
-        <div className="flex gap-20 py-16">
-          <div className="bg-[#3B3B3B] rounded-2xl w-[350px] h-[490px]">
+        <div className="flex lg:flex-nowrap md:justify-around lg:justify-normal md:flex-wrap lg:gap-20 md:gap-10 lg:py-16 md:py-16">
+          <div className="bg-[#3B3B3B] rounded-2xl lg:w-[350px] lg:h-[490px] md:w-[300px] md:h-[450px]">
             <img className="w-[350px]" src={DistantGalaxy} />
             <div className="p-6">
               <h5 className="text-white pb-1 text-[22px]">Distant Galaxy</h5>
@@ -437,7 +437,7 @@ const User = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#3B3B3B] rounded-2xl w-[350px] h-[490px]">
+          <div className="bg-[#3B3B3B] rounded-2xl lg:w-[350px] lg:h-[490px] md:w-[300px] md:h-[450px]">
             <img className="w-[350px]" src={LifeOnEdena} />
             <div className="p-6">
               <h5 className="text-white pb-1 text-[22px]">Life On Edena</h5>
