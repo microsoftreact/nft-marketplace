@@ -28,7 +28,7 @@ const Collection = () => {
           Checkout our weekly updated trending collection.
         </p>
       </div>
-      <div className="flex lg:justify-between md:justify-around md:gap-20 mt-20 md:flex-wrap">
+      <div className="flex lg:justify-evently md:justify-around lg:gap-4 md:gap-20 mt-20 md:flex-wrap">
         <div className="">
           <div className="md:h-[250px] md:w-[250px] lg:w-[330px] lg:h-[330px]">
             <img
